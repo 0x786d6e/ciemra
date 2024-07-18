@@ -1,0 +1,23 @@
+:root{
+  --background: #0e0e0e;
+  --foreground: #e1eaed;
+
+  --black:   #5f5f5f;
+  --bblack:  #5a5a5a;
+  --white:   #8e8e8e;
+/* colors */
+  --red:     #b76969;
+  --green:   #719d72;
+  --yellow:  #909858; /* is a mellow color */
+  --blue:    #68668f;
+  --purple:  #966894;
+  --cyan:    #688891;
+
+/* bright versions */
+  --bred:    #b75656;
+  --bgreen:  #529e53;
+  --byellow: #8c993a;
+  --bblue:   #59578e;
+  --bpurple: #964992;
+  --bcyan:   #4b8291;
+}
