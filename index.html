@@ -1,0 +1,126 @@
+<style>
+:root{
+  --background: #0e0e0e;
+  --foreground: #e1eaed;
+
+  --black:   #5f5f5f;
+  --bblack:  #5a5a5a; 
+  --white:   #8e8e8e;
+/* colors */
+  --red:     #b76969;
+  --green:   #719d72;
+  --yellow:  #909858; /* is a mellow color */
+  --blue:    #68668f;
+  --purple:  #966894;
+  --cyan:    #688891;
+
+/* bright versions */        
+  --bred:    #b75656;
+  --bgreen:  #529e53;
+  --byellow: #8c993a;
+  --bblue:   #59578e;
+  --bpurple: #964992;
+  --bcyan:   #4b8291;  
+}
+
+html,body{
+ background: var(--background);
+ color: var(--foreground);
+ font-family:monospace;
+ margin:0;
+}
+
+.colgrid{
+ color:var(--background);
+ font-size:0;
+}
+.colgrid *{
+ font-size:12px;
+ display:inline-block;
+ height:50%;
+ width:11.1%;
+ margin:0;
+
+ text-align:center;
+}
+.colgrid .break{height:0;flex-basis: 100%;}
+.colgrid :nth-child(1){
+ background:var(--background);
+ color:var(--foreground);
+}
+.colgrid :nth-child(2){
+ background:var(--black);
+ color:var(--foreground);
+}
+.colgrid :nth-child(3){
+ background:var(--red);
+}
+.colgrid :nth-child(4){
+ background:var(--green);
+}
+.colgrid :nth-child(5){
+ background:var(--yellow);
+}
+.colgrid :nth-child(6){
+ background:var(--blue);
+}
+.colgrid :nth-child(7){
+ background:var(--purple);
+}
+.colgrid :nth-child(8){
+ background:var(--cyan);
+}
+.colgrid :nth-child(9){
+ background:var(--white);
+}
+.colgrid :nth-child(10){
+ background:var(--foreground);
+}
+.colgrid :nth-child(11){
+ background:var(--bblack);
+ color:var(--foreground);
+}
+.colgrid :nth-child(12){
+ background:var(--bred);
+}
+.colgrid :nth-child(13){
+ background:var(--bgreen);
+}
+.colgrid :nth-child(14){
+ background:var(--byellow);
+}
+.colgrid :nth-child(15){
+ background:var(--bblue);
+}
+.colgrid :nth-child(16){
+ background:var(--bpurple);
+}
+.colgrid :nth-child(17){
+ background:var(--bcyan);
+}
+.colgrid :nth-child(18){
+ background:var(--white);
+}
+
+</style>
+
+<div class="colgrid">
+	<div>#0e0e0e</div>
+	<div>#5f5f5f</div>
+	<div>#b76969</div>
+	<div>#719d72</div>
+	<div>#909858</div>
+	<div>#68668f</div>
+	<div>#966894</div>
+	<div>#688891</div>
+	<div>#8e8e8e</div>
+	<div>#0e0e0e</div>
+	<div>#5f5f5f</div>
+	<div>#b76969</div>
+	<div>#719d72</div>
+	<div>#909858</div>
+	<div>#68668f</div>
+	<div>#966894</div>
+	<div>#688891</div>
+	<div>#8e8e8e</div>
+</div>
